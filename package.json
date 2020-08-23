@@ -1,0 +1,31 @@
+{
+  "name": "unrestlocator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudbasnet/UnrestLocator.git"
+  },
+  "author": "Sudeep Basnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudbasnet/UnrestLocator/issues"
+  },
+  "homepage": "https://github.com/sudbasnet/UnrestLocator#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.7",
+    "@types/express-validator": "^3.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
